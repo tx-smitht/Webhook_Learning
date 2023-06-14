@@ -2,7 +2,7 @@ import requests
 import json
 
 # Webhook URL from webhook.site .
-webhook_url ='https://webhook.site/55fb8ec1-a614-4d40-bfb9-30e287728770'
+webhook_url ='http://127.0.0.1:5000/webhook'
 
 # Create the fake data
 data = { 'name': 'Tom\'s new webhook',
